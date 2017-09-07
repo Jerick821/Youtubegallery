@@ -1,0 +1,2 @@
+gulp
+open file:///C:/Projects/youtubegallery/dist/index.html#
