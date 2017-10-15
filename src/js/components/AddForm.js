@@ -8,7 +8,7 @@ var AddForm = React.createClass({
 		return(
 			<div className="add-form">
 				<panel className="c12">
-                    <h3>Add Video</h3>
+                    <h4>Add Video</h4>
                     <form onSubmit={this.onSubmit}>
                         <div className="form-group">
                             <label>Video Title</label><br />

@@ -1,6 +1,17 @@
 body{
     margin-top:30px;
-}
+    margin-bottom:100px;
+    background-color:black;
+    background-image: url("../casey-horner-339165.jpg");
+    
+    height: 100%; 
+
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color:white;
+    background-attachment: fixed;
+} 
 
 .add-form{
     padding:20px;
@@ -16,3 +27,36 @@ input[type=text], textarea{
     font-size:15px;
     text-decoration:none;
 }
+
+
+.c12 {
+    width: 60%;
+    padding-bottom:20px;
+    overflow: hidden;
+    padding-left: 30px;
+    
+}
+
+panel, .panel {
+    background-color: rgba(0,0,0, 0.5);
+    border:none;
+    width:50px;
+    border-radius:25px;
+}
+
+input, textarea {
+    background: rgba(0,0,0, 0.5);
+    color:white;
+}
+
+.button {
+    margin-top:20px;
+    background: rgba(0,0,0, 0.9);
+    padding: 5px 30px;
+}
+
+
+h5 {
+    margin: 80px 0 -2px 0;
+}
+

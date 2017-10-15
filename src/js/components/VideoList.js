@@ -7,16 +7,16 @@ var VideoList = React.createClass({
 	
 	render: function(){
 		return(
-			<div className="row">
-                {
-                    this.props.videos.map(function(video, index){
-                        return(
-                            <Video video={video} key={index} />
-                        )
-                    })
-                }
-                
-			</div>
+                <div className="row videoList">
+                    {
+                        this.props.videos.map(function(video, index){
+                            return(
+                                <Video video={video} key={index} />
+                            )
+                        })
+                    }
+                    
+                </div>
 		);
     },
 

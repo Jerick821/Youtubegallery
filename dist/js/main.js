@@ -20073,7 +20073,7 @@ var AddForm = React.createClass({displayName: "AddForm",
 		return(
 			React.createElement("div", {className: "add-form"}, 
 				React.createElement("panel", {className: "c12"}, 
-                    React.createElement("h3", null, "Add Video"), 
+                    React.createElement("h4", null, "Add Video"), 
                     React.createElement("form", {onSubmit: this.onSubmit}, 
                         React.createElement("div", {className: "form-group"}, 
                             React.createElement("label", null, "Video Title"), React.createElement("br", null), 
@@ -20189,16 +20189,16 @@ var VideoList = React.createClass({displayName: "VideoList",
 	
 	render: function(){
 		return(
-			React.createElement("div", {className: "row"}, 
-                
-                    this.props.videos.map(function(video, index){
-                        return(
-                            React.createElement(Video, {video: video, key: index})
-                        )
-                    })
-                
-                
-			)
+                React.createElement("div", {className: "row videoList"}, 
+                    
+                        this.props.videos.map(function(video, index){
+                            return(
+                                React.createElement(Video, {video: video, key: index})
+                            )
+                        })
+                    
+                    
+                )
 		);
     },
 

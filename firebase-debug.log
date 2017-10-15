@@ -1,0 +1,36 @@
+[debug] [2017-10-15T05:15:00.208Z] ----------------------------------------------------------------------
+[debug] [2017-10-15T05:15:00.211Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jerick\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-15T05:15:00.211Z] CLI Version:   3.10.0
+[debug] [2017-10-15T05:15:00.211Z] Platform:      win32
+[debug] [2017-10-15T05:15:00.211Z] Node Version:  v6.11.3
+[debug] [2017-10-15T05:15:00.212Z] Time:          Sun Oct 15 2017 18:15:00 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-15T05:15:00.212Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-15T05:15:00.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-15T05:15:00.231Z] > authorizing via signed-in user
+[debug] [2017-10-15T05:15:00.233Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-15T05:15:00.233Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/OiobWEw_8c6l0Y8FqCiKrIorrfSVTEYVr0GP8Yt8NxE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Oct 15 2017 18:15:00 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-15T05:15:00.908Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-15T05:15:00.918Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/youtubegallery-e3264  
+ Sun Oct 15 2017 18:15:00 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-15T05:15:02.473Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-15T05:15:02.476Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/youtubegallery-e3264/tokens  
+ Sun Oct 15 2017 18:15:02 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-15T05:15:11.985Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Jerick\Desktop\Addition Files\ALL PROJECTS\React\youtubegallery'...
+[info] 
+[debug] [2017-10-15T05:15:11.994Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/youtubegallery-e3264  
+ Sun Oct 15 2017 18:15:11 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-15T05:15:13.736Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-15T05:15:13.737Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/497163510348/clients/_:getWebAppConfig  
+ Sun Oct 15 2017 18:15:13 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-15T05:15:15.168Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+
